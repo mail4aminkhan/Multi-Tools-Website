@@ -1,0 +1,28 @@
+multi-tools-website/
+├── index.html                # Homepage
+├── assets/
+│   ├── css/
+│   │   ├── style.css         # Main styles
+│   │   └── tools.css         # Tool-specific styles
+│   ├── js/
+│   │   ├── main.js           # Common functionality
+│   │   ├── search.js         # Search implementation
+│   │   ├── header-footer.js  # Dynamic header/footer loader
+│   │   └── tools/            # Individual tool scripts
+│   └── images/               # All website images
+├── tools/                    # All tool pages
+│   ├── image/
+│   │   ├── image-to-png.html
+│   │   ├── image-to-jpg.html
+│   │   └── ...
+│   ├── seo/
+│   │   ├── meta-tag-generator.html
+│   │   └── ...
+│   ├── text/
+│   │   ├── word-counter.html
+│   │   └── ...
+│   └── ...                   # Other categories
+├── components/
+│   ├── header.html           # Common header
+│   └── footer.html           # Common footer
+└── ads/                      # Ad templates/scripts
